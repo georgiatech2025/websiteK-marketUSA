@@ -92,8 +92,8 @@ h1 em { font-family: Georgia, serif; font-weight: 400; color: #bd563f; }
 .market-label { position: absolute; z-index: 3; padding: 12px 17px; border-radius: 6px; font-size: 12px; font-weight: 600; background: #f8f7f3; color: var(--ink); box-shadow: 0 10px 25px #06122735; }
 .market-label small { display: block; margin-top: 4px; margin-left: 13px; font-size: 6px; font-weight: 500; letter-spacing: 1.2px; color: var(--muted); }
 .location-dot { display: inline-block; width: 6px; height: 6px; margin-right: 5px; border-radius: 50%; background: #d36f51; }
-.seoul { right: 16px; top: 42%; }
-.usa { left: 15px; top: 63%; }
+.seoul { left: 16px; top: 54%; }
+.usa { right: 15px; top: 54%; }
 .visual-bottom { bottom: 32px; align-items: flex-end; font-size: 12px; line-height: 1.6; color: #becbe2; }
 .visual-bottom strong { font-weight: 500; color: white; }
 .visual-index { margin-right: 26px; font-size: 8px; letter-spacing: 2px; }
@@ -189,8 +189,8 @@ form .button { width: 100%; }
   .visual-top { font-size: 7px; letter-spacing: 1.3px; }
   .market-label { font-size: 10px; padding: 10px; }
   .market-label small { font-size: 5px; }
-  .seoul { right: 10px; }
-  .usa { left: 10px; }
+  .seoul { left: 10px; }
+  .usa { right: 10px; }
   .principles { margin: 0 24px; flex-wrap: wrap; justify-content: center; gap: 12px; }
   .principles > span:first-child { width: 100%; text-align: center; }
   .principles p { font-size: 10px; }

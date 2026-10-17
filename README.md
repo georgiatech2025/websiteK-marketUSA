@@ -35,3 +35,7 @@ Only run this in a private terminal: results contain personal information. Back 
 ## Before a public launch
 
 Configure HTTPS and persistent private database storage. Add abuse protection and rate limiting at the hosting layer, establish an appropriate privacy policy and retention process, and verify business copy and contact details. This initial version has no login, email delivery, advertising tracking, or Google Ads account integration. Agency services described on the page are editable introductory copy; no performance claims or partner certifications are implied.
+
+## Globe artwork
+
+The inline SVG in `public/index.html` uses public-domain Natural Earth 1:110m land geometry distributed by [world-atlas](https://github.com/topojson/world-atlas). It uses a Pacific-centered orthographic projection (180° longitude, 25° north), generated with d3-geo. The dashed great-circle route connects Seoul (126.978° E, 37.5665° N) and Los Angeles (118.2437° W, 34.0522° N). Shapes and markers share the same projection. Geometry is embedded locally; no map services, runtime packages, or external requests are required.
