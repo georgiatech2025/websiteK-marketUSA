@@ -1,0 +1,9 @@
+{
+  "name": "k-market-usa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Google Ads agency website for Korean businesses entering the USA",
+  "engines": { "node": ">=24" },
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js", "test": "node --test" }
+}
